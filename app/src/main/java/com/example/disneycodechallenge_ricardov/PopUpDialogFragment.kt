@@ -13,7 +13,7 @@ class PopUpDialogFragment : DialogFragment() {
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val dialog = AlertDialog.Builder(requireContext())
             .setTitle("Reservation Needed")
-            .setMessage("Select at lest one guest that has a reservation to continue.")
+            .setMessage("Select at least one guest that has a reservation to continue.")
             .setPositiveButton("OK") { _, _ -> }
             .create()
 

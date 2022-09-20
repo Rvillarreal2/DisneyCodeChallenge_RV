@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         reservationRecyclerView?.layoutManager = layoutManager
         noReservationRecyclerView?.layoutManager = layoutManager2
 
-        var childFragmentManager = supportFragmentManager
+        val childFragmentManager = supportFragmentManager
         reservationRecyclerView?.adapter = resAdapter
         noReservationRecyclerView?.adapter = noResAdapter
         continueButton.setOnClickListener {
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(
                     applicationContext,
                     "You have moved to the next screen.",
-                    Toast.LENGTH_SHORT
+                    Toast.LENGTH_LONG
                 ).show()
             } else {
                 PopUpDialogFragment().show(

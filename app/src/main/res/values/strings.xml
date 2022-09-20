@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Disney Code Challenge _ RicardoV</string>
+    <string name="have_reservations">These Guest Have Reservations</string>
+    <string name="need_reservations">These Guest Need Reservations</string>
+    <string name="party_in_order_to_enter">At least one Guest in the party must have a reservation. Guest without reservations must remain in the same booking party in order to enter.</string>
+    <string name="continue_str">Continue</string>
+    <string name="info_vector_asset">info vector asset</string>
 </resources>
